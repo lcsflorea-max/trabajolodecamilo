@@ -1,0 +1,44 @@
+/* =====================================================
+   HEADER.CSS
+   Estilos del encabezado y la barra de navegación.
+   ===================================================== */
+
+header {
+    background-color: var(--color-principal);
+    padding: 1rem 2rem;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 1.5rem;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+    transition: 0.3s;
+}
+
+header nav ul li a:hover {
+    color: var(--color-hover);
+}

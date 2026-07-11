@@ -1,0 +1,42 @@
+/* =====================================================
+   HOME.CSS
+   Sección Inicio: carrusel principal + tarjetas
+   de presentación ("¿Qué es Lo de Camilo?").
+   ===================================================== */
+
+#inicio {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Carrusel: ocupa el 100% del ancho y más de 1/3 del alto de pantalla */
+.carousel-item img {
+    height: 90vh;
+    object-fit: cover;
+    filter: brightness(60%);
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.reasons-section {
+    max-width: 1200px;
+    margin: 3rem auto;
+    text-align: center;
+    padding: 2rem;
+}
+
+.reasons-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.reasons-section ul li {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
