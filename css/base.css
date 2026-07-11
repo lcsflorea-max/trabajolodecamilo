@@ -1,0 +1,39 @@
+/* =====================================================
+   BASE.CSS
+   Reglas compartidas por todas las secciones:
+   reset, tipografía general y variables de color.
+   ===================================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-principal: #004d29;
+    --color-secundario: #006b3c;
+    --color-hover: #9be15d;
+    --color-fondo: #004d2969;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--color-fondo);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Títulos compartidos por varias secciones */
+h2 {
+    font-weight: 600;
+}
+
+/* Contenedor de cards, reutilizado en varias secciones */
+.cards-container {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}

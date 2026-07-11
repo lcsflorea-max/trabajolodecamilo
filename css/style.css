@@ -1,0 +1,15 @@
+/* =====================================================
+   STYLE.CSS
+   Archivo principal: importa un CSS por cada sección.
+   El orden importa: base primero, responsive al final.
+   ===================================================== */
+
+@import url(base.css);
+@import url(header.css);
+@import url(home.css);
+@import url(cards.css);
+@import url(servicios.css);
+@import url(galeria.css);
+@import url(contacto.css);
+@import url(footer.css);
+@import url(responsive.css);
